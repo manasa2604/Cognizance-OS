@@ -1,0 +1,246 @@
+*{
+    Padding:auto;
+    Margin:auto;
+    }
+    body{
+    Background-image:url('cream.png' );
+    background-size: cover; 
+   
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 45px;
+	padding-left: 0.002%;
+	padding-right: 10%;
+}
+.logo{
+	color: black;
+	font-size: 35px;
+	letter-spacing: 4px;
+	cursor: pointer;
+    position: absolute;
+    left: 4%;
+}
+span{
+	color: #60bd8a;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px  25px;
+}
+nav ul li a{
+	color: rgb(11, 41, 4);
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+nav ul li a:hover{
+	color: #f9f500;
+	transition: .4s;
+}
+.btn{
+	background-color:#ade7bf;
+	color: rgb(11, 41, 4);
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 10px 25px;
+	border-radius: 30px;
+	transition: transform .4s; 
+    position: absolute;
+    right: 4%;
+}
+.btn:hover{
+	transform: scale(1.2);
+}
+.content{
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translateY(-50%);
+}
+h1{
+	color: rgb(7, 59, 27);
+	margin: 20px 0px 20px;
+	font-size: 75px;
+}
+h3{
+	color: #72bb93;
+	font-size: 70px;
+	margin-bottom: 50px;
+}
+
+.newslatter form{
+	width: 380px;
+	max-width: 100%;
+	position: relative;
+	right:14%;
+}
+.newslatter form input:first-child{
+	display: inline-block;
+	width: 30%;
+	padding: 14px 100px 14px 15px;
+	border: 2px solid rgb(16, 116, 54);
+	outline: none;
+	border-radius: 30px;
+}
+.newslatter form input:last-child{
+	position: absolute;
+	display: inline-block;
+	outline: none;
+	border: none;
+	padding: 10px 30px;
+	border-radius: 30px;
+	background-color:#0c7039;
+	color: rgb(247, 247, 247);
+	box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+	top: 6px;
+	right: 4px; 
+}
+.about{
+	width: 100%;
+	padding: 100px 0px;
+	background-color: #c4dfd0;
+	position: absolute;
+    top: 100%;
+}
+.about img{
+	height: auto;
+	width: 430px;
+}
+.about-text{
+	width: 550px;
+
+}
+.main{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.about-text h2{
+	color: rgb(13, 49, 25);
+	font-size: 40px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+	position: absolute;
+    top: 20%;
+	left: 10;
+}
+.about-text h5{
+	color: #5c0f19;
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+	position: absolute;
+    top: 34%;
+	left: 10;
+}
+.about-text p{
+	color: rgba(2, 29, 6, 0.8);
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+	margin-bottom: 45px;
+	position: absolute;
+    top: 42%;
+	left: 10;
+}
+button{
+	background-color:rgb(16, 116, 54);
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .4s;
+	position: absolute;
+    top: 70%;
+	left: 50; 
+}
+button:hover{
+	background-color: transparent;
+	border: 2px solid rgb(175, 196, 183);
+	cursor: pointer;
+}
+.contact-me{
+	width: 100%;
+	height: 200px;
+	background: #7c9688;
+	display: flex;
+	position: absolute;
+    top: 158%;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+.contact-me p{
+	color: rgb(207, 223, 219);
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 25px;
+	position: absolute;
+    top: 17%;
+	left: 50; 
+}
+.contact-me .button-two{
+	background-color:rgb(16, 116, 54);
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .4s; 
+	position: absolute;
+    top: 45%;
+	left: 50; 
+}
+.contact-me .button-two:hover{
+	background-color: transparent;
+	border: 2px solid #64c469;
+	cursor: pointer;
+}
+footer{
+	position: relative;
+	width: 100%;
+	height: 400px;
+	background: #34423b;
+	position: absolute;
+    top: 180%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+footer p:nth-child(1){
+	font-size: 30px;
+	color: rgb(255, 255, 255);
+	margin-bottom: 20px;
+	font-weight: bold;
+	position: absolute;
+    top: 18%;
+	left: 50; 
+}
+footer p:nth-child(2){
+	color: rgb(143, 143, 143);
+	font-size: 17px;
+	font-weight: lighter;
+	width: 500px;
+	text-align: center;
+	line-height: 26px;
+	position: absolute;
+    top: 29%;
+	left: 50; 
+}
+.social{
+	display: flex;
+}
+
